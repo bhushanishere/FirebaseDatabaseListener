@@ -54,7 +54,6 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         }
         
         UIApplication.shared.applicationIconBadgeNumber = 0
-        UIApplication.shared.registerForRemoteNotifications()
     }
 }
 

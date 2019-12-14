@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94E435ED7F6C86218E1B9ABD /* Pods_FirebaseDBListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB550DADEB04C11DCAAD1AF3 /* Pods_FirebaseDBListener.framework */; };
+		A93520D823A5209C0015AFD9 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93520D723A5209C0015AFD9 /* DatabaseViewController.swift */; };
 		A979700D23A4DC74004E3622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A979700C23A4DC74004E3622 /* AppDelegate.swift */; };
 		A979700F23A4DC74004E3622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A979700E23A4DC74004E3622 /* SceneDelegate.swift */; };
-		A979701123A4DC74004E3622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A979701023A4DC74004E3622 /* ViewController.swift */; };
 		A979701423A4DC74004E3622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A979701223A4DC74004E3622 /* Main.storyboard */; };
 		A979701623A4DC77004E3622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A979701523A4DC77004E3622 /* Assets.xcassets */; };
 		A979701923A4DC77004E3622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A979701723A4DC77004E3622 /* LaunchScreen.storyboard */; };
+		A979702123A4DC83004E3622 /* AppDelegate+PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A979702023A4DC83004E3622 /* AppDelegate+PushNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54F9D63325E0B6D104D78930 /* Pods-FirebaseDBListener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDBListener.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseDBListener/Pods-FirebaseDBListener.debug.xcconfig"; sourceTree = "<group>"; };
+		92A2BC965ABDC56A68247C29 /* Pods-FirebaseDBListener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDBListener.release.xcconfig"; path = "Target Support Files/Pods-FirebaseDBListener/Pods-FirebaseDBListener.release.xcconfig"; sourceTree = "<group>"; };
+		A93520D723A5209C0015AFD9 /* DatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseViewController.swift; sourceTree = "<group>"; };
 		A979700923A4DC74004E3622 /* FirebaseDBListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDBListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A979700C23A4DC74004E3622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A979700E23A4DC74004E3622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A979701023A4DC74004E3622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A979701323A4DC74004E3622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A979701523A4DC77004E3622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A979701823A4DC77004E3622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A979701A23A4DC77004E3622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A979702023A4DC83004E3622 /* AppDelegate+PushNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+PushNotifications.swift"; sourceTree = "<group>"; };
+		AB550DADEB04C11DCAAD1AF3 /* Pods_FirebaseDBListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDBListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E435ED7F6C86218E1B9ABD /* Pods_FirebaseDBListener.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		594985EE121544F497756F8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F9D63325E0B6D104D78930 /* Pods-FirebaseDBListener.debug.xcconfig */,
+				92A2BC965ABDC56A68247C29 /* Pods-FirebaseDBListener.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D91C2D597F18B6FC7F3D6DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB550DADEB04C11DCAAD1AF3 /* Pods_FirebaseDBListener.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A979700023A4DC74004E3622 = {
 			isa = PBXGroup;
 			children = (
 				A979700B23A4DC74004E3622 /* FirebaseDBListener */,
 				A979700A23A4DC74004E3622 /* Products */,
+				594985EE121544F497756F8B /* Pods */,
+				9D91C2D597F18B6FC7F3D6DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				A979700C23A4DC74004E3622 /* AppDelegate.swift */,
+				A979702023A4DC83004E3622 /* AppDelegate+PushNotifications.swift */,
 				A979700E23A4DC74004E3622 /* SceneDelegate.swift */,
-				A979701023A4DC74004E3622 /* ViewController.swift */,
+				A93520D723A5209C0015AFD9 /* DatabaseViewController.swift */,
 				A979701223A4DC74004E3622 /* Main.storyboard */,
 				A979701523A4DC77004E3622 /* Assets.xcassets */,
 				A979701723A4DC77004E3622 /* LaunchScreen.storyboard */,
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A979701D23A4DC77004E3622 /* Build configuration list for PBXNativeTarget "FirebaseDBListener" */;
 			buildPhases = (
+				A892D31F610EAA3C09CA6FA2 /* [CP] Check Pods Manifest.lock */,
 				A979700523A4DC74004E3622 /* Sources */,
 				A979700623A4DC74004E3622 /* Frameworks */,
 				A979700723A4DC74004E3622 /* Resources */,
+				BEDEEAF13BFE39AD3D751E45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +162,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A892D31F610EAA3C09CA6FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseDBListener-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDEEAF13BFE39AD3D751E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseDBListener/Pods-FirebaseDBListener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseDBListener/Pods-FirebaseDBListener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseDBListener/Pods-FirebaseDBListener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A979700523A4DC74004E3622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A979701123A4DC74004E3622 /* ViewController.swift in Sources */,
 				A979700D23A4DC74004E3622 /* AppDelegate.swift in Sources */,
 				A979700F23A4DC74004E3622 /* SceneDelegate.swift in Sources */,
+				A979702123A4DC83004E3622 /* AppDelegate+PushNotifications.swift in Sources */,
+				A93520D823A5209C0015AFD9 /* DatabaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +354,7 @@
 		};
 		A979701E23A4DC77004E3622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F9D63325E0B6D104D78930 /* Pods-FirebaseDBListener.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Maharudra.FirebaseDBListener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adventure.FirebaseDBListener;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,6 +372,7 @@
 		};
 		A979701F23A4DC77004E3622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A2BC965ABDC56A68247C29 /* Pods-FirebaseDBListener.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Maharudra.FirebaseDBListener;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adventure.FirebaseDBListener;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
